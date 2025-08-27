@@ -51,6 +51,7 @@
             this.btnNext.TabIndex = 1;
             this.btnNext.Text = "Next";
             this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // listCashierQueue
             // 
@@ -60,6 +61,7 @@
             this.listCashierQueue.Size = new System.Drawing.Size(489, 364);
             this.listCashierQueue.TabIndex = 2;
             this.listCashierQueue.UseCompatibleStateImageBehavior = false;
+            this.listCashierQueue.SelectedIndexChanged += new System.EventHandler(this.listCashierQueue_SelectedIndexChanged);
             // 
             // Form2
             // 
@@ -71,6 +73,7 @@
             this.Controls.Add(this.btnRefresh);
             this.Name = "Form2";
             this.Text = "CashierWindowQueueForm";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
 
         }

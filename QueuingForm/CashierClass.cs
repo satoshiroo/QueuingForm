@@ -8,10 +8,10 @@ namespace QueuingForm
 {
     internal class CashierClass
     {
-        private int x;
+        private static int x;
         public static string getNumberInQueue = "";
         public static Queue<string> CashierQueue;
-        public CashierClass()
+        static CashierClass()
         {
             x = 10000;
             CashierQueue = new Queue<string>();

@@ -63,7 +63,8 @@
             this.lblQueue.Name = "lblQueue";
             this.lblQueue.Size = new System.Drawing.Size(310, 73);
             this.lblQueue.TabIndex = 2;
-            this.lblQueue.Text = "P - 10001";
+            this.lblQueue.Text = "P - 10000";
+            this.lblQueue.Click += new System.EventHandler(this.lblQueue_Click);
             // 
             // label3
             // 
